@@ -1,0 +1,9 @@
+export const LENGTH_EXCEED_LIMIT_MSG = "The length exceeded the limit";
+export const REQUIRED_MSG = "This field is required";
+export const MAX_VALUE_MSG = "Max value exceeded";
+export const BASE_URL = "http://159.65.236.173:5000";
+export const USER_API_SUBPATH = "/api/users";
+export const VIN_API_SUBPATH = "/api/vin";
+export const VIN_BASE_URL = "https://vpic.nhtsa.dot.gov/api";
+export const TOWMAST_API_SUBPATH = "/api/towmast";
+export const LOCALHOST = "http://localhost:3000";

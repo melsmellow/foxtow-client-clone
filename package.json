@@ -1,0 +1,37 @@
+{
+  "name": "foxtow-client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "versionUpdate": "node update-version.js",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next build && next export -0 _static"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.1.1",
+    "@chakra-ui/react": "^2.8.1",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@tanstack/react-table": "^8.10.1",
+    "axios": "^1.5.0",
+    "chakra-react-select": "^4.7.5",
+    "eslint": "8.49.0",
+    "eslint-config-next": "13.4.19",
+    "formidable": "^3.5.1",
+    "framer-motion": "^10.16.4",
+    "next": "13.4.19",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.46.1",
+    "react-icons": "^4.11.0",
+    "styled-components": "^6.0.8",
+    "sweetalert2": "^11.7.28",
+    "zustand": "^4.4.2"
+  },
+  "resolutions": {
+    "styled-components": "^5"
+  }
+}

@@ -1,0 +1,1 @@
+export const appVersion = "1697909121164";
